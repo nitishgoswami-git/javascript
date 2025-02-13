@@ -1,0 +1,25 @@
+JavaScript Execution Context
+
+{} -> Global Execution Context = this
+
+Types:-
+|_Global Execution Context
+|_Function Execution Context
+|_ Eval Execution Context (Global EC)
+
+{} -> Memory Creation Phase (Creation Phase) space allocation for variables and function
+    -> Execution Phase 
+
+
+
+    1.Global Execution(Global Environment)
+            |
+            v 
+          this
+
+    2.Memory Phase //cycle 1
+        variables -> undefinded value
+        function -> function definition
+    3.Execution Phase
+        variables <- values
+        function <- 
